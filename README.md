@@ -1,4 +1,5 @@
 # FARM Stack sample
+![alt text](https://github.com/danielfesalbon/farm-stack/blob/main/images/farm.png?raw=true)
 ##### Farm stack stands for:
 ### **F**ast **A**pi **R**eact **M**ongoDB
 #### Run the **fast api application**
@@ -16,3 +17,5 @@ uvicorn main:app --reload
 npm i
 npm start
 ```
+Sample running application. WIP
+![alt text](https://github.com/danielfesalbon/farm-stack/blob/main/images/sample.PNG?raw=true)
