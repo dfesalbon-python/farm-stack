@@ -1,0 +1,192 @@
+.container {
+  margin: 0 15vw;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(58, 58, 58, 0.8);
+  box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%),
+    0 1px 5px 0 rgb(0 0 0 / 12%);
+}
+
+li {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+li:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+table {
+  font-family: arial, sans-serif;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 8px;
+}
+
+td,
+th {
+  border: 0px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tbody tr {
+  background-color: whitesmoke;
+}
+
+td:first-child {
+  border-radius: 5px 0px 0px 5px;
+}
+
+td:last-child {
+  border-radius: 0px 5px 5px 0px;
+}
+
+/*tbody tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #834c4c;
+}
+
+tbody tr:hover {
+  background-color: rgb(206, 182, 182);
+}*/
+
+td button {
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+  background-color: rgba(220, 20, 60, 0.5);
+  border: 0px;
+  box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%),
+    0 1px 5px 0 rgb(0 0 0 / 12%);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+td button:hover {
+  background-color: rgba(220, 20, 60, 0.7);
+}
+
+.row-edit {
+  width: 10%;
+}
+
+.row-num {
+  width: 12%;
+}
+
+.tool-bar {
+  border-top: 1px solid rgba(158, 158, 158, 0.2);
+  margin: 0;
+  padding-top: 10px;
+}
+
+.h-half {
+  width: 50%;
+  display: inline-block;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 0px solid #888;
+  width: 40%;
+  border-radius: 5px;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  div.modal-content {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  div.modal-content {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.modal-content {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  div.modal-content {
+    width: 75%;
+  }
+}
+
+.tool-bar {
+  margin: 0 15px;
+}
+
+.primary-button {
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 8px;
+  width: 80px;
+  border-width: 0px;
+  /*box-shadow: 0px 1.25px 2.5px 0 rgb(0, 0, 0);*/
+  background-color: crimson;
+  color: white;
+  box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%),
+    0 1px 5px 0 rgb(0 0 0 / 12%);
+  transition-duration: 0.4s;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.primary-button:hover {
+  background-color: firebrick;
+}
